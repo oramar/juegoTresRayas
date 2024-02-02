@@ -1,0 +1,33 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+.square{
+  width: 6rem;
+  height: 6rem;
+  font-size: 4em;
+  padding: 1rem 1rem;
+ 
+}
+
+.square:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.square:active{
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.board-row{
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
